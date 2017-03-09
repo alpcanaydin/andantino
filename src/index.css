@@ -1,0 +1,173 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 35px;
+
+  height: 100%;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background: rgba(30,82,137,1);
+  background-image: radial-gradient(50% 89%, #1E5189 0%, #12355C 90%);
+}
+
+:focus {
+  outline: 0;
+}
+
+p {
+  opacity: 0.8;
+  font-size: 18px;
+  letter-spacing: -0.33px;
+  line-height: 30px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 54px;
+  letter-spacing: -1px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: calc(100vh - 70px);
+}
+
+.container .aligner-item {
+  flex: 1;
+}
+
+.container .aligner-item-top {
+  align-self: flex-start;
+}
+
+.container .aligner-item-bottom {
+  align-self: flex-end;
+  display: flex;
+  align-items: flex-end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.gap-bottom {
+  margin-bottom: 15px;
+}
+
+.gap-bottom-large {
+  margin-bottom: 25px;
+}
+
+.pad-bottom {
+  padding-bottom: 15px;
+}
+
+.pad-bottom-large {
+  padding-bottom: 25px;
+}
+
+.button {
+  background: #24DD9A;
+  color: #fff;
+  border: none;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24);
+  border-radius: 100px;
+  padding: 20px 45px;
+
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.button.disabled {
+  opacity: .7;
+}
+
+.button.disabled:hover {
+  opacity: .7;
+  cursor: initial;
+  pointer-events: none;
+}
+
+.button:hover {
+  opacity: .9;
+  cursor: pointer;
+}
+
+.buttonGroup .button {
+  margin-right: 6px;
+}
+
+.box {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media only screen
+  and (min-width: 300px)
+  and (max-width: 736px) {
+    body {
+      padding: 15px;
+      font-size: 14px;
+    }
+
+    p {
+      font-size: 14px;
+      letter-spacing: -0.33px;
+      line-height: 21px;
+    }
+
+    h1 {
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 32px;
+      letter-spacing: -1px;
+    }
+
+    .gap-bottom {
+      margin-bottom: 10px;
+    }
+
+    .gap-bottom-large {
+      margin-bottom: 15px;
+    }
+
+    .pad-bottom {
+      padding-bottom: 10px;
+    }
+
+    .pad-bottom-large {
+      padding-bottom: 0;
+    }
+
+    .hidden-mobile {
+      display: none;
+    }
+
+    .container .aligner {
+      min-height: calc(100vh - 30px);
+    }
+}
