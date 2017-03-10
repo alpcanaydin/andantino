@@ -1,6 +1,7 @@
 # andantino
 
-Andantino is a game that let's people to know if they are a tone-deaf or not.
+Andantino is a game that let's people to know if they are a tone-deaf or not. Users listen some notes and try to find
+same notes on the keyboard.
 
 https://alpcanaydin.github.io/andantino
 
