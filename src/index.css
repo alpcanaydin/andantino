@@ -117,6 +117,14 @@ strong {
   cursor: pointer;
 }
 
+.button.facebook {
+  background: #3B5998;
+}
+
+.button.twitter {
+  background: #1DA1F2;
+}
+
 .buttonGroup .button {
   margin-right: 6px;
 }

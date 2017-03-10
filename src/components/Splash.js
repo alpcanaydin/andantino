@@ -43,8 +43,8 @@ class Splash extends Component {
       <div>
         <h1 className="gap-bottom">Andantino</h1>
         <p className="gap-bottom-large">
-          Listen to the melody and try to guess the notes you heard.<br />
-          You can play with your mouse, keyboard or even actual MIDI device.
+          Listen to the melody and try to guess notes you hear.<br />
+          Use your mouse, keyboard or even an actual MIDI device to play.
         </p>
 
         {loading ?

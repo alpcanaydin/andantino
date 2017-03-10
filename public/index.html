@@ -4,14 +4,56 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>andantino</title>
+    <title>andantino.</title>
 
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <meta name="description" content="Andantino is a game that let's you to know if you are a tone-deaf or not. Try to play what you hear and share your score with friends!">
+    <meta property="og:description" content="Listen to the melody and try to play it, share your score with friends!">
+    <meta property="og:title" content="Andantino">
+    <meta property="og:image" content="https://alpcanaydin.github.io/andantino/social.png">
+    <meta property="og:url" content="https://alpcanaydin.github.io/andantino">
+    <meta property="og:site_name" content="Andantino">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://alpcanaydin.github.io/andantino">
+    <meta name="twitter:title" content="Andantino">
+    <meta property="twitter:image" content="https://alpcanaydin.github.io/andantino/social.png">
+    <meta name="twitter:description" content="Listen to the melody and try to play it, share your score with friends!">
+
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,600">
   </head>
   <body>
     <div id="root"></div>
+
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1849585875289448',
+          xfbml      : true,
+          version    : 'v2.8'
+        });
+        FB.AppEvents.logPageView();
+      };
+
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-83631054-4', 'auto');
+      ga('send', 'pageview');
+
+    </script>
   </body>
 </html>

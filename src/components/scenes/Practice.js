@@ -20,15 +20,14 @@ class Practice extends Component {
         <h1 className="gap-bottom">Practice yourself!</h1>
         <div className="box hidden-mobile">
           <p className="gap-bottom">
-            Here is your keyboard, practice as you please.
-            Press the button when you are ready.
+            Here is your keyboard, practice as long as you wish.
           </p>
 
           <p className="gap-bottom-large">
             <strong>Tips:</strong>&nbsp;
             C3 is the A key in your keyboard and it continues like MIDI keyboard.
             Timing is also important to get score. You will lose points if you hit the note
-            too less or too much.
+            too short or too long.
           </p>
 
         </div>

@@ -3,6 +3,9 @@
     "env": {
         "browser": true
     },
+    "globals": {
+        "FB": true
+    },
     "plugins": [
         "react",
         "jsx-a11y",

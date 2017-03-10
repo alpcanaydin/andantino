@@ -4,7 +4,7 @@ import Level from '../Level';
 const Level8 = () => (
   <Level
     title="Level 8"
-    description="Last one is imposibble one. Don't even try!"
+    description="Last one is the impossible one. Don't even try!"
     showVST={7.5}
     schedule={[
       { note: 'D5', duration: 0.42, time: 0 },
