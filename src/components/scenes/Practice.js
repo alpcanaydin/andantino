@@ -23,7 +23,7 @@ class Practice extends Component {
             Here is your keyboard, practice as long as you wish.
           </p>
 
-          <p className="gap-bottom-large">
+          <p style={{ marginBottom: '65px' }}>
             <strong>Tips:</strong>&nbsp;
             C3 is the A key in your keyboard and it continues like MIDI keyboard.
             Timing is also important to get score. You will lose points if you hit the note
