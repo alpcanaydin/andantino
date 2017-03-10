@@ -17,7 +17,7 @@
     "classnames": "^2.2.5",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "sample-player": "^0.5.5",
+    "sample-player": "^0.5.5"
   },
   "scripts": {
     "start": "react-scripts start",
