@@ -212,12 +212,14 @@ class Level extends Component {
               </button>
               <button
                 className={cx('button', { disabled: !userStarted })}
+                disabled={!userStarted}
                 onClick={this.handleResetLevel}
               >
                 Reset Level
               </button>
               <button
                 className={cx('button', { disabled: !userStarted })}
+                disabled={!userStarted}
                 onClick={this.handleCheck}
               >
                 Check!
